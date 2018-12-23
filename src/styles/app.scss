@@ -1,0 +1,66 @@
+$sans-serif-font: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,'Lucida Grande', sans-serif;
+
+$primary: #0033cb;  
+$primary-color: #0033cb;
+$brand-accent: #ffc400;
+
+$theme-colors: (
+        "brand": #0033cb,
+        "brand-dark": #000d99,
+        "brand-secondary": #605eff,
+        "brand-accent": $brand-accent,
+        "brand-accent-dark": #ffc400,
+        "dark-primary": #19212b,
+        "dark-secundary": #262f3d
+);
+
+$border-radius:               10rem;
+$border-radius-lg:            50rem;
+
+@import "~bootstrap/scss/bootstrap";
+
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+u {
+  text-decoration-color: $brand-accent
+}
+#root {
+  height: 100%;
+}
+#___gatsby > * {
+  height: 100%;
+}
+
+.shadow {
+  //box-shadow: 0 0.1rem 2rem rgba(53,183,130, 0.15) !important
+  box-shadow: 0 6px 24px 4px rgba(53,183,130, 0.15) !important
+}
+.card {
+  border: #35b782;
+}
+
+.divider {
+  height: 7px;
+  background-color: $primary;
+  width: 80%;
+}
+
+.main-holder {
+  min-height: 100%;
+}
+
+footer {
+  background-color: $primary;
+}
+
+.img-border {
+  border: 1px solid $primary;
+  border-radius: 4px;
+  padding: 5px;
+}
