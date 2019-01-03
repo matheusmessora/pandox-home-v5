@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+// <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet" />
 export default class HTML extends React.Component {
   render() {
     return (
@@ -12,9 +13,11 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+
           
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossOrigin="anonymous" />
-          <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" />
+          
           
           
 

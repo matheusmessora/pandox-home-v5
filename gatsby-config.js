@@ -14,6 +14,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-131576450-1",
+        // Puts tracking script in the head instead of the body
+        head: true
+      },
+    },
     `gatsby-plugin-sharp`,
     {
     resolve: `gatsby-plugin-sass`,
