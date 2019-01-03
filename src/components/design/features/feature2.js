@@ -45,7 +45,7 @@ Feature2.propTypes = {
 }
 
 Feature2.defaultProps = {
-  image: ``,
+  
 }
 
 export default Feature2

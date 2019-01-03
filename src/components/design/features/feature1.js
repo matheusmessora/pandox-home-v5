@@ -26,7 +26,7 @@ Feature1.propTypes = {
 }
 
 Feature1.defaultProps = {
-  image: ``,
+  
 }
 
 export default Feature1

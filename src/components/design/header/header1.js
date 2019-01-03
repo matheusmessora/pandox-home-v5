@@ -27,7 +27,7 @@ Header1.propTypes = {
 }
 
 Header1.defaultProps = {
-  image: ``,
+  
 }
 
 export default Header1
