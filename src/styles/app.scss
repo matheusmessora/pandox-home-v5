@@ -16,6 +16,7 @@ $border-radius:               10rem;
 $border-radius-lg:            50rem;
 
 @import "~bootstrap/scss/bootstrap";
+@import "images";
 
 html {
   height: 100%;
@@ -24,6 +25,10 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+}
+h6 {
+  text-transform: uppercase;
+  font-weigth: bold;
 }
 h-100 {
   min-height: 100%;

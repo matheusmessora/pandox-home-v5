@@ -12,8 +12,16 @@ import money from '../images/money-01.jpg'
 import whatsapp from '../images/whatsapp.png'
 import matheusmessora from '../images/matheusmessora.jpeg'
 import rafaelasantos from '../images/rafaelasantos.jpeg'
+
 import Feature1 from '../components/design/features/feature1'
 import Feature2 from '../components/design/features/feature2'
+import Feature3 from '../components/design/features/feature3'
+import Feature4 from '../components/design/features/feature4'
+
+import Client1 from '../components/design/clients/client1'
+
+import Team1 from '../components/design/team/team1'
+
 import Header1 from '../components/design/header/header1'
 
 
@@ -29,7 +37,7 @@ class IndexPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Pandox - Tecnologia para micro e pequenas empresas" keywords={[`criação de sites`, `desenvolvimento de sites`, `preciso de um site`]} />
+        <SEO title="Pandox" keywords={[`criação de sites`, `desenvolvimento de sites`, `preciso de um site`]} />
         
         <div className="h-100">
           <div className="h-100 d-flex border-bottom border-brand-accent"
@@ -39,55 +47,16 @@ class IndexPage extends Component {
           >
             <Header1 image={first2} onClick={this.handleClick} />
           </div>
-          <div className="d-flex my-5 py-5 h-50">
-            <Feature1 image={money} onClick={this.handleClick} />
-          </div>
+        
+          <Feature4 image={money} onClick={this.handleClick} />
+          <Feature1 image={money} onClick={this.handleClick} />
           
           <Feature2 image={picture} onClick={this.handleClick} />
+          
+          <Feature3 />
 
-
-          <div className="bg-brand-dark py-4">
-              <div className="container">
-                  <div className="row">
-                      <div className="col text-white text-center">
-                          <h1 className="display-4">O seu site fica pronto em apenas 10 dias.</h1>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <div className="bg-white py-5">
-              <div className="container">
-                <div className="row">
-                  <div className="col text-center">
-                    <h1>Time de especialistas</h1>
-                    <p>Conheça o time que é apaixonado por ajudar micro e pequenas empresas a possuirem seu site na internet.</p>
-                  </div>
-                </div>
-                  <div className="row">
-                      <div className="col-md-12 col-lg">
-                        <div className="border py-2 px-4 text-center border-sm">
-                          <img src={matheusmessora} style={{height: "200px"}}  className="mb-3 rounded border-brand-accent img-thumbnail" />
-                          <p className="h4">Matheus Messora</p>
-                          <p className="text-muted text-uppercase">Tecnologia</p>
-                          <a href="https://www.linkedin.com/in/matheusmessora/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        </div>
-                      </div>
-                      <div className="col-md-12 col-lg">
-                        <div className="border py-2 px-4 text-center border-sm">
-                          <img src={rafaelasantos} style={{height: "200px"}} className="mb-3 rounded border-brand-accent img-thumbnail" />
-                          <p className="h4">Rafaela Santos</p>
-                          <p className="text-muted text-uppercase">Vendas & Produtos</p>
-                          <a href="https://www.linkedin.com/in/rafaela-santos-b31459a3"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-
-
-
+          <Team1 />
+          
           <footer className="py-5 text-white">
               <div className="container" id="contact">
                   <div className="row">
